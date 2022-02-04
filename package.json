@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/musshal/nodejs-web-server/issues"
   },
-  "homepage": "https://github.com/musshal/nodejs-web-server#readme"
+  "homepage": "https://github.com/musshal/nodejs-web-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
